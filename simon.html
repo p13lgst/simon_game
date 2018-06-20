@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel='stylesheet' href="style.css">
+  </head>
+  <body>
+    <div class="game">
+      <div id="top">
+        <button id="0" class="game-button green"></button>
+        <button id="1" class="game-button red"></button>
+      </div>
+      <div id="bottom">
+        <button id="2" class="game-button yellow"></button>
+        <button id="3" class="game-button blue"></button>
+      </div>
+      <div id="menu" class="text-center">
+        <h1 id="title">Simon</h1>
+        <div class="row">
+          <div class="col-xs-4">
+            <p>Count:</p>
+            <p id="count">00</p>
+          </div>
+          <div class="col-xs-4">
+            <button id="start"></button>
+            <p id="start-text">Start</p>
+          </div>
+          <div class="col-xs-4">
+            <label class="switch">
+              <input type="checkbox">
+              <span id="strict" class="slider"></span>
+            </label>
+            <p>Strict</p>
+          </div>
+        </div>
+        <div id="message"></div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</html>
