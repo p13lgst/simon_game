@@ -1,3 +1,4 @@
-# Simon game
+# Simon Game
+Simon game implementation in JavaScript with JQuery, FreeCodeCamp project.
 
-Freecodecamp's simon game project implementation by Paulo Augusto Silva.
+Play it here: https://p13lgst.github.io/simon_game/
